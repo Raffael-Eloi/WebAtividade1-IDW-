@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Web atividade 1</title>
+  </head>
+  <body>
+    <main>
+      <h1>Nome de pessoas mais comuns em Tocantins</h1>
+      
+      <div class="showNomes">
+        Apresentar nomes
+      </div>
+
+      <div class="listaNomesDiv">
+        <ol style="display: none;" id="listaNomes">
+          <li>Maria</li>
+          <li>Jose</li>
+          <li>Jose</li>
+          <li>Joao</li>
+          <li>Ana</li>
+          <li>Antonio</li>
+          <li>Raimundo</li>
+          <li>Francisco</li>
+          <li>Pedro</li>
+          <li>Marcos</li>
+          <li>Carlos</li>
+          <li>Paulo</li>
+          <li>Lucas</li>
+          <li>Manoel</li>
+          <li>Luiz</li>
+          <li>Raimunda</li>
+          <li>Gabriel</li>
+          <li>Francisca</li>
+          <li>Daniel</li>
+          <li>Luis</li>
+        </ol>
+      </div>
+    </main>
+
+    <script>
+      let mostrarNomes = document.querySelector('.showNomes');
+      mostrarNomes.addEventListener("click", () => {
+        document.getElementById('listaNomes').style.display = "block";
+      })
+    </script>
+
+  </body>
+</html>

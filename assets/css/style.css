@@ -1,0 +1,28 @@
+h1 {
+  text-align: center;
+}
+
+.showNomes {
+  background: rgb(10, 119, 10);
+  width: 50%;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 10px;
+  font-weight: bold;
+  text-align: center;
+  color: #fdfdfd;
+  transition: 400ms;
+}
+
+.showNomes:hover {
+  cursor: pointer;
+  font-size: 1.05rem;
+  box-shadow: 4px 4px 4px 4px gray;
+}
+
+.listaNomesDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
